@@ -1,24 +1,20 @@
 <Project>
   <PropertyGroup Label="Settings">
     <Deterministic>true</Deterministic>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>embedded</DebugType>
+    <DebugType>portable</DebugType>
     <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Label="Deterministic Build" Condition="'$(GITHUB_ACTIONS)' == 'true'">
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-  </PropertyGroup>
-
   <PropertyGroup Label="Package Information">
-    <Description>A .NET library to read binary terminfo files.</Description>
-    <Authors>Patrik Svensson, Phil Scott</Authors>
+    <Description>A .NET library to read binary terminfo files. This library is part of the Terminaux library.</Description>
+    <Authors>Patrik Svensson, Phil Scott, Aptivi</Authors>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/spectreconsole/terminfo</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/spectreconsole/terminfo</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Aptivi/Terminaux.TermInfo</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Aptivi/Terminaux.TermInfo</PackageProjectUrl>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">

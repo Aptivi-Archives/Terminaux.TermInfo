@@ -1,45 +1,67 @@
-# terminfo
 
-A library to read compiled, binary terminfo descriptions.
+<div align = center>
 
-_[![TermInfo NuGet Version](https://img.shields.io/nuget/v/TermInfo.svg?style=flat&label=NuGet%3A%20TermInfo)](https://www.nuget.org/packages/TermInfo)_
+<br>
+<br>
+    
+<img
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Terminaux.TermInfo@main/src/Terminaux.TermInfo/OfficialAppIcon-Terminaux-512.png'
+  width = 256
+  align = center
+/>
 
-## Usage
+<br>
 
-```csharp
-// Load the active terminfo description
-var info = TermInfoDesc.Load();
+# Terminaux.TermInfo
+    
+*A library that allows you to inspect the TermInfo database. Part of the Terminaux library.*
 
-// Load via terminfo name
-var info = TermInfoDesc.Load("xterm-256color");
+<br>
+<br>
 
-// Default capabilities are strongly typed
-Debug.Assert(info.MaxColors == 256)
+[![Badge Main]][Main]   
+[![Badge Main Linux]][Main Linux]
 
-// But extended capabilities are also supported
-bool? ax = info.Extended.GetBoolean("AX");
-int? u8 = info.Extended.GetNum("U8");
-string? kup = info.Extended.GetNum("kUP");
-```
+[![Badge Latest]][Latest]   
+[![Badge NuGet]][NuGet]
 
-## Building
+![Badge Size]   
+[![Badge Downloads]][Releases]
 
-We're using [Cake](https://github.com/cake-build/cake) as a 
-[dotnet tool](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools) 
-for building. So make sure that you've restored Cake by running 
-the following in the repository root:
+[![Button Manual]][Manual]   
+[![Button Libraries]][Libraries]
 
-```
-> dotnet tool restore
-```
+</div>
+    
+<br>
 
-After that, running the build is as easy as writing:
+</div>
 
-```
-> dotnet cake
-```
 
-## Acknowledgement
+<!----------------------------------------------------------------------------->
 
-This code is partly a port of https://github.com/xo/terminfo,
-licensed under [MIT](https://github.com/xo/terminfo/blob/ca9a967f877831dd8742c136f5c19f82d03673f4/LICENSE).
+[Releases]: https://github.com/Aptivi/Terminaux.TermInfo/releases
+[Latest]: https://github.com/Aptivi/Terminaux.TermInfo/releases/latest
+[NuGet]: https://www.nuget.org/packages/Terminaux.TermInfo/
+
+[Main]: https://github.com/Aptivi/Terminaux.TermInfo/actions/workflows/build-win.yml
+[Main Linux]: https://github.com/Aptivi/Terminaux.TermInfo/actions/workflows/build-linux.yml
+
+[Libraries]: https://aptivi.gitbook.io/terminaux-manual/project-dependencies
+[Manual]: https://aptivi.gitbook.io/terminaux-manual/
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Downloads]: https://img.shields.io/github/downloads/Aptivi/Terminaux.TermInfo/total?color=217346&label=Downloads&style=for-the-badge&logoColor=white&logo=DocuSign&labelColor=2d9d5f
+[Badge Latest]: https://img.shields.io/github/v/release/Aptivi/Terminaux.TermInfo?color=212121&include_prereleases&label=github&style=for-the-badge&logoColor=white&logo=AzureArtifacts&labelColor=303030
+[Badge NuGet]: https://img.shields.io/nuget/vpre/Terminaux.TermInfo?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
+[Badge Size]: https://img.shields.io/github/repo-size/Aptivi/Terminaux.TermInfo?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
+
+[Badge Main]: https://github.com/Aptivi/Terminaux.TermInfo/actions/workflows/build-win.yml/badge.svg
+[Badge Main Linux]: https://github.com/Aptivi/Terminaux.TermInfo/actions/workflows/build-linux.yml/badge.svg
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Libraries]: https://img.shields.io/badge/Libraries-EA8220?style=for-the-badge&logoColor=white&logo=AzureArtifacts
+[Button Manual]: https://img.shields.io/badge/Docs-blueviolet?style=for-the-badge&logoColor=white&logo=GitBook

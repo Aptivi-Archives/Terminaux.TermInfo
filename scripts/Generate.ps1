@@ -3,14 +3,14 @@
 ##########################################################
 
 $Output = Join-Path $PSScriptRoot ".temp"
-$Source = Join-Path $PSScriptRoot "/../src/TermInfo"
+$Source = Join-Path $PSScriptRoot "/../src/Terminaux.TermInfo"
 
 if(!(Test-Path $Output -PathType Container)) {
     New-Item -ItemType Directory -Path $Output | Out-Null
 }
 
 # Generate the files
-Push-Location (Join-Path $PSScriptRoot "/../src/TermInfo.Cli")
+Push-Location (Join-Path $PSScriptRoot "/../src/Terminaux.TermInfo.Cli")
 &dotnet run generate "$Output" --input $Output
 if(!$?) { 
     Pop-Location
