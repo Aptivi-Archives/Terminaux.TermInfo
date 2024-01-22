@@ -14,6 +14,99 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.ExtendedCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.ExtendedCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoCaps.Boolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoCaps.Boolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoCaps.Num.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoCaps.Num.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoCaps.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoCaps.String.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoCaps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoCaps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoCapsKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoCapsKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.TermInfoDesc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.TermInfoDesc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Terminaux.TermInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Terminaux.TermInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
