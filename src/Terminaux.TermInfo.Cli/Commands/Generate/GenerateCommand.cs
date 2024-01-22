@@ -11,7 +11,7 @@ using Scriban;
 using Spectre.Console;
 using Spectre.Console.Cli;
 using Spectre.IO;
-using TermInfo;
+using Terminaux.TermInfo;
 using SpectreEnvironment = Spectre.IO.Environment;
 
 namespace Generator.Commands

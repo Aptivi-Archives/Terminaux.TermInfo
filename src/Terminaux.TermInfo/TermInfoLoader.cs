@@ -23,7 +23,6 @@ using System.IO;
 using System.Runtime.InteropServices;
 using Terminaux.TermInfo.Extensions;
 using Terminaux.TermInfo.Parsing;
-using TermInfo;
 
 namespace Terminaux.TermInfo
 {

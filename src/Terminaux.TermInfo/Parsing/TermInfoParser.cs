@@ -21,7 +21,6 @@ using System;
 using System.IO;
 using System.Text;
 using Terminaux.TermInfo.Extensions;
-using TermInfo;
 
 namespace Terminaux.TermInfo.Parsing
 {

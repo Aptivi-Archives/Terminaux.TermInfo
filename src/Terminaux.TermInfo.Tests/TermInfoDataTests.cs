@@ -19,7 +19,6 @@
 
 using Shouldly;
 using Terminaux.TermInfo.Tests.Utilities;
-using TermInfo;
 using Xunit;
 
 namespace Terminaux.TermInfo.Tests

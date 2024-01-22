@@ -2,7 +2,6 @@ using System.Diagnostics;
 using Spectre.Console;
 using Spectre.Console.Cli;
 using Terminaux.TermInfo;
-using TermInfo;
 
 namespace Generator.Commands
 {
