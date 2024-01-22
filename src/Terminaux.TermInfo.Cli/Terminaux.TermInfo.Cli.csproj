@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,12 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.14.1" />
-    <PackageReference Include="Scriban" Version="5.9.0" />
-    <PackageReference Include="SharpCompress" Version="0.34.1" />
-    <PackageReference Include="Spectre.Console.Cli" Version="0.47.0" />
+    <PackageReference Include="Scriban" Version="5.9.1" />
+    <PackageReference Include="SharpCompress" Version="0.36.0" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.48.0" />
     <PackageReference Include="Spectre.IO" Version="0.14.0" />
-    <PackageReference Update="MinVer" Version="4.3.0" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,10 +22,6 @@
     <None Update="Templates\TermInfoDesc.Generated.template">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="..\stylecop.json" Link="Properties/stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>

@@ -18,14 +18,9 @@
 
   <ItemGroup>
     <PackageReference Include="System.Memory" Version="4.5.5" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
-    <PackageReference Update="MinVer" Version="4.3.0" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
   </ItemGroup>
   
-  <ItemGroup>
-    <AdditionalFiles Include="..\stylecop.json" Link="Properties/stylecop.json" />
-  </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="TunnelVisionLabs.ReferenceAssemblyAnnotator" Version="1.0.0-alpha.160" PrivateAssets="all" />
     <PackageDownload Include="Microsoft.NETCore.App.Ref" Version="[$(AnnotatedReferenceAssemblyVersion)]" />
