@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TermInfo
+namespace Terminaux.TermInfo
 {
     /// <summary>
     /// Represents known terminfo capabilities.

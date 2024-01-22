@@ -1,4 +1,4 @@
-namespace TermInfo
+namespace Terminaux.TermInfo
 {
     public sealed partial class TermInfoDesc
     {

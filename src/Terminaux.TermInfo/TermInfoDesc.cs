@@ -19,7 +19,7 @@
 
 using Terminaux.TermInfo;
 
-namespace TermInfo
+namespace Terminaux.TermInfo
 {
     /// <summary>
     /// Represents a parsed terminfo description.

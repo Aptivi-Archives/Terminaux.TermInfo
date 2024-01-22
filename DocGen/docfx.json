@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "Terminaux.TermInfo/**.csproj" ],
+                    "files": [ "src/Terminaux.TermInfo/**.csproj" ],
                     "src": ".."
                 }
             ],
